@@ -3,7 +3,7 @@ This repository contains the code used for the paper [Why Do Equally Weighted Po
 ```
 @article{swade2023,
   title={Why Do Equally Weighted Portfolios Beat Value-Weighted Ones?},
-  author={Swade, Alexander and Shackleton, Mark B and Lohre, Harald and Nolte, Sandra},
+  author={Swade, Alexander and Nolte, Sandra and Shackleton, Mark B and Lohre, Harald },
   journal={Journal of Portfolio Management, Forthcoming},
   year={2023}
 }

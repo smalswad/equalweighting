@@ -23,6 +23,23 @@ from quantfinlib.statistic.tests import tstat
 from quantfinlib.utils.list import combine_alternating
 
 def generate_exhibits(direc, configs, res):
+    '''
+    Main function to structure exhibit generation.
+
+    Parameters
+    ----------
+    direc : str
+        Output directory.
+    configs : dict
+        Dictionary containing all configurations..
+    res : dict
+        Analysis results from analysis function.
+
+    Returns
+    -------
+    None.
+
+    '''
     
     # Unpack regression data only
     reg_dat = res['reg_dat']
@@ -68,7 +85,6 @@ def exhibit_1(direc, cum_ret, col_palette):
         
     fig, axs = plt.subplots(1,1, figsize=(12, 8))
     fig.subplots_adjust(wspace=0.3, hspace=0.05) #defaults are 0.2 each
-    
     
     axs.plot(cum_ret.index, cum_ret.loc[:,'vwretd'], label='SPX', ls='--', 
                 color=col_palette['black'])

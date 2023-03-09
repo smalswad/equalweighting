@@ -11,6 +11,22 @@ import numpy as np
 from quantfinlib.portfolio.measure import calc_perc
 
 def run_analysis(data, configs):
+    '''
+    Main function to run all analysis components of the paper.
+
+    Parameters
+    ----------
+    data : dict
+        Dictionary containing all loaded data.
+    configs : dict
+        Dictionary containing all configurations.
+
+    Returns
+    -------
+    dict
+        Analysis results to be passed to output function.
+
+    '''
     
     # Unpack configs
     start = configs['start']

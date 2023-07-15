@@ -13,8 +13,8 @@ This repository contains the code used for the paper [Why Do Equally Weighted Po
 ```
 The repository is structured as follows:
 - [configs](https://github.com/smalswad/equalweighting/tree/main/configs) contains a yaml file with configurations for the base setup of the paper. Store config files in a separate folder following your current working directory '.../cwd/configs/'. 
-- [equalweighting](https://github.com/smalswad/equalweighting/tree/main/equalweighting) contains the three separate files for the data loading, the calculation process and the data visualization.
-- [data]() contains the used data by WRDS, Bloomberg, K. French and other sources. Please note, I do not have the rights to share any data, but a detailed overview of the used time series is given in the paper.
-- [main.py](https://github.com/smalswad/equalweighting/blob/main/main.py) calls the different steps of the calculations and saves results afterwards.
+- [equalweighting](https://github.com/smalswad/equalweighting/tree/main/equalweighting) contains three separate files for data loading, the calculation process, and data visualization.
+- [data]() contains the used data by WRDS, Bloomberg, K. French and other sources. Please note, I do not have the right to share any data, but a detailed overview of the used time series is given in the paper.
+- [main.py](https://github.com/smalswad/equalweighting/blob/main/main.py) calls the different steps of the calculations and saves results afterward.
 
-See furhter research papers to related topics at [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3837762).
+See further research papers on related topics at [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3837762).
